@@ -1,0 +1,62 @@
+@media (min-width: 1000px){
+  .menu h1 {
+    font-size: 30px;
+  }
+  .container {
+    background-image: url(imgs/pexels-vecislavas-popa-1571460.jpg);
+    background-size: cover;
+  }
+  
+  .inicio {
+    text-align: justify;
+    text-align: center;
+  }
+
+  .services {
+    height: 530px;
+  }
+
+  .mainPr {
+    height: 380px;
+  }
+  .word h1 {
+    padding-top: 200px;
+  }
+  .ulMenu {
+    transform: translate(0%, 0%);
+    height: 85px;
+  }
+  .ulMenu li {
+    padding: 50px;
+  }
+
+  .menu button {
+    display: none;
+  }
+  .ulMenu {
+    text-align: center;
+  }
+  .ulMenu li {
+    display: inline;
+  }
+
+  .services {
+    height: 60vh;
+  }
+  .proyectos {
+    height: 20vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mainPr {
+    height: 40vh;
+  }
+  .label p {
+    font-size: 17px;
+  }
+
+  .redes {
+    justify-content: left;
+  }
+}

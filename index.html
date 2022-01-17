@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="imgs/alkistudio.ico" type="image/x-icon">
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="media.css">
+	<!--Google Fonts-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<title>Alki Studio</title>
+</head>
+<body>
+	<!--Header-->
+	<div class="container">
+		<header class="header">
+			<nav class="menu">
+				<div class="title">
+					<h1>Alki Studio</h1>
+				</div>
+				<ul class="ulMenu">
+					<li><a href="#inicio">Inicio</a></li>
+					<li><a href="#services">Estrategia de Trabajo</a></li>
+					<li><a href="#proyectos">Proyectos</a></li>
+					<li><a href="#contacta">Acerca de</a></li>
+				</ul>
+				<button class="btnMenu">
+					<img src="imgs/icons8_menu_2.ico" alt="">
+				</button>
+			</nav>
+		</header>
+		<div class="word">
+			<div class="sentence">
+				<h1>Diseñamos tus sueños</h1>
+			</div>
+			<div class="btnPlus">
+				<button><a href="#inicio">Enterate de mas</a></button>
+			</div>
+		</div>
+	</div>
+	<!--Fin del contenedor-->
+	<!--Inicio-->
+	<div class="inicio" id="inicio" >
+		<div class="inicio-title">
+			<h1>BIENVENIDO A ALKI STUDIO</h1>
+		</div>
+		<div class="content">
+			<!--Texto-->
+			<p class="text-main">
+			Alki Studio una empresa especializada en el diseño de espacios, ejecución de obra y arquitectura, con una cultura eco-innovadora colaborativa. Desarrollamos la identidad espacial y modelado de ambientes innovadores, la gestión global y planificación tecnificada de obra, con modelos y herramientas digitales de alta eficiencia y constante actualización; logrando la máxima optimización de recursos, el control integral de procesos, el plazo de servicio más corto del mercado, el cuidado del medio ambiente y certificaciones de sostenibilidad.
+			Creamos no solamente ambientes laborales inspiradores y productivos, sino también consolidamos al cliente en el mercado que se desenvuelve, fortaleciendo su imagen corporativa.</p>
+			<!--Boton 'Ver mas'-->
+			<br>
+		</div>
+	</div>
+	<!--Fin de inicio-->
+	<!--Servicios-->
+	<div class="services" id="services">
+		<div class="service-title">
+			<h1>Estrategia de Trabajo</h1>
+		</div>
+		<!--Labels -->
+		<div class="labels">
+			<div class="label">
+				<h3>1. Documentar</h3>
+				<p>Se realiza una visita al local del cliente para así documentar el espacio</p>
+			</div>
+			<div class="label">
+				<h3>2. Conceptualizar</h3>
+				<p>Mirar a fondo el proyecto, sea comercial, residencial o corporativo, se hace una investigación</p>
+			</div>
+			<div class="label">
+				<h3>3. Desarrollar</h3>
+				<p>Entrar a ver detalles en 3D del espacio por medio de cortes, elevaciones, planos de techos y pisos</p>
+			</div>
+			<div class="label">
+				<h3>4. Entregar</h3>
+				<p>De acuerdo al servicio tomado para obra, se le hace entrega al cliente de la documentación del proyecto</p>
+			</div>
+		</div>
+	</div>
+	<!--Fin de Services-->
+
+	<!--Proyectos-->
+	<div class="mainPr" id="proyectos">
+		<div class="prTitle">
+			<h1>Proyectos</h1>
+		</div>
+		<div class="proyectos">
+			<div class="pr1"></div>
+			<div class="pr1-2"></div>
+			<div class="pr1-3"></div>
+			<div class="pr2"></div>
+			<div class="pr2-2"></div>
+			<div class="pr2-3"></div>
+		</div>
+	</div>
+	<!--Fin del Contenedor Proyecto-->
+	<div class="contacta" id="contacta">
+		<button class="contacto"><a href="contacto/contacto.html">Contactanos</a></button>
+	</div>
+	<footer class="acercaDe">
+		<div class="footer1">
+			<h1>Acerca de</h1>
+			<div class="address">
+				<span>Telefono :  *** *** ***</span>
+				<br>
+				<span>Celular :  *** *** ***</span>
+				<br>
+				<span>Email : alkistudio@gmail.com</span>
+				<br>
+				<span class="web">Web : <a href="alkistudio.com">alkistudio.com</a></span>
+				<br>
+				<div class="redes">
+					<a href="https://www.instagram.com/alki.studio/"><img src="imgs/icons8_instagram_2.ico" alt=""></a>
+
+					<a href="https://www.facebook.com/ALKI-Studio-108916017648498/"><img src="imgs/icons8_facebook.ico" alt=""></a>
+
+			</div>
+			<div class="credit">
+				<p>@ Desarrollador Web: Marco Soto</p>
+			</div>
+		</div>
+		</div>
+	</footer>
+</body>
+<!--Scroll Reveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+	ScrollReveal().reveal('.container', {delay:400});
+	ScrollReveal().reveal('.word', {delay:400});
+	ScrollReveal().reveal('.container', {delay:400});
+	ScrollReveal().reveal('.services', {delay:400});
+	ScrollReveal().reveal('.labels', {delay:400});
+	ScrollReveal().reveal('.label', {delay:400});
+	ScrollReveal().reveal('.text-main', {delay:400});
+</script>
+<!--Enlace para javaScript-->
+<script src="app.js"></script>
+</html>
